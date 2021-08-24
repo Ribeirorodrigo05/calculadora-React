@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+.calculator {
+    font-family: 'Roboto Mono', monospace;
+    height: 320px;
+    width: 235px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #34F;
+    color: #FFFFFF;
+    display:grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1fr 48px  48px  48px  48px  48px ;
+}
